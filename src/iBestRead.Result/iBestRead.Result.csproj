@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="../../build/public.props" />
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>iBestRead.Result</AssemblyName>
+    <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Version>0.0.1</Version>
+    <PackageId>iBestRead.Result</PackageId>
+
+    <PackageProjectUrl>https://github.com/iBestRead/Result</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/iBestRead/Result/blob/main/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/iBestRead/Result</RepositoryUrl>
+
+    <Description>包裹返回的结果</Description>
+    <PackageTags>Result;ActionResult</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="icon.png" Pack="true" Visible="false" PackagePath="" />
+  </ItemGroup>
+
+</Project>

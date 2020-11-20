@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="../../build/public.props" />
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>iBestRead.Result.FluentValidationExtensions</AssemblyName>
+    <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Version>0.0.1</Version>
+    <PackageId>iBestRead.Result.FluentValidationExtensions</PackageId>
+
+    <PackageProjectUrl>https://github.com/iBestRead/Result</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/iBestRead/Result/blob/main/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/iBestRead/Result</RepositoryUrl>
+
+    <Description>对FluentValidation的扩展</Description>
+    <PackageTags>Result;FluentValidation;Validation</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="icon.png" Pack="true" Visible="false" PackagePath="" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="9.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\iBestRead.Result\iBestRead.Result.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="../../build/public.props" />
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>iBestRead.Result.AspNetCoreExtensions</AssemblyName>
+    <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Version>0.0.1</Version>
+    <PackageId>iBestRead.Result.AspNetCoreExtensions</PackageId>
+
+    <PackageProjectUrl>https://github.com/iBestRead/Result</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/iBestRead/Result/blob/main/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/iBestRead/Result</RepositoryUrl>
+
+    <Description>转换Result为ActionResult</Description>
+    <PackageTags>Result;ActionResult</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="icon.png" Pack="true" Visible="false" PackagePath="" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\iBestRead.Result\iBestRead.Result.csproj" />
+  </ItemGroup>
+
+</Project>

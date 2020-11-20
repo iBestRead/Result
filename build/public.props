@@ -1,0 +1,28 @@
+<Project>
+
+  <PropertyGroup>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <LangVersion>latest</LangVersion>
+    <NoWarn>$(NoWarn);CS1591;NU1603</NoWarn>
+    <RootNamespace />
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Authors>AkiniX</Authors>
+    <Company>iBestRead</Company>
+    <Copyright>Copyright (c) 2014-2020 IBESTREADSOFT. All rights reserved.</Copyright>
+    <PackageIcon>icon.png</PackageIcon>
+    <RepositoryType>git</RepositoryType>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All"/>
+  </ItemGroup>
+  
+</Project>
